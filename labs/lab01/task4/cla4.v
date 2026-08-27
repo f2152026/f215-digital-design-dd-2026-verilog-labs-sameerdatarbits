@@ -65,7 +65,7 @@ module cla4(
   and #(2) (p3p2g1, p3, p2, g1);
   and #(2) (p3p2p1g0, p3, p2, p1, g0);
   and #(2) (p3p2p1p0cin, p3, p2, p1, p0, cin);
-  or  #(2) (cout, g3, p3g2, p3p2g1, p3p2p1g0, p3p2p1p0cin);
+  or  #(2) (cout, g3, p3g2, p3p2g1, p3p2p1g0, p3p2p1p0cin)
 
   // Step 3: sum bits
   xor #(2) (sum[0], p0, cin);
