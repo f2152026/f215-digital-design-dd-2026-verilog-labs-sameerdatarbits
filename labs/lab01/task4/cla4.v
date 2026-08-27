@@ -68,7 +68,7 @@ module cla4(
   or  #(2) (cout, g3, p3g2, p3p2g1, p3p2p1g0, p3p2p1p0cin);
 
   // Step 3: sum bits
-  xor #(2) (sum[0], p0, cin);
+  xor #(2) (sum[0], p0, cout);
   xor #(2) (sum[1], p1, c1);
   xor #(2) (sum[2], p2, c2);
   xor #(2) (sum[3], p3, c3);
